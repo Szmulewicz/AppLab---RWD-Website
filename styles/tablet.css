@@ -1,0 +1,115 @@
+@media(min-width: 900px) {
+    .menu {
+        display: none;
+    }
+    .main-header {
+        height: 10vh;
+        background-color: #2c2c2c;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main__phone {
+        margin-top: 30%;
+    }
+    .main {
+        flex-direction: row;
+        align-items: center;
+    }
+    .main__text {
+        font-size: 20px;
+    }
+
+    .save-time {
+        display: flex;
+        flex-direction: column;
+    }
+    .save-time__wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .save-time__title {
+        margin: 7% 0 7% 0;
+    }
+    .save-time__article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .save-time__title:first-child {
+        font-size: 32px;
+    }
+    .save-time__border-img {
+        background-color: #0a86f6;
+        width: 15vw;
+        height: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15%;
+        margin: 8% 0;
+    }
+    .save-time__border-img--second {
+        background-color: #fd905e;
+    }
+    .save-time__border-img--third {
+        background-color: #37ef8d;
+    }
+    .features {
+        flex-direction: row;
+    }
+    .features__text {
+        width: 40%;
+    }
+    .features__title {
+        margin-bottom: 5%;
+        font-size: 32px;
+    }
+    .features__img {
+        margin-top: 10%;
+    }
+    .plans {
+        display: flex;
+    }
+    .plans__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .plans__title {
+        margin-bottom: 5%;
+    }
+    .plans__options {
+        width: 28%;
+        box-shadow: 0px 0px 24px 4px rgba(146, 146, 146, 1);
+    }
+    .apps {
+        background-color: #5db2ff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20% 0;
+    }
+    .apps__text {
+        text-align: left;
+        font-size: 48px;
+    }
+    .applab {
+        padding-top: 5%;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .applab__wrapper {
+        width: 40vw;
+    }
+
+    .icon-wrapper {
+        width: 8vw;
+        height: 8vw;
+    }
+    .icon-facebook, .icon-twitter, .icon-instagram {
+        font-size: 30px;
+    }
+}
